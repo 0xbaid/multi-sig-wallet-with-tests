@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Uindentified
 pragma solidity ^0.8.0;
 
-contract multiSigWallet {
+contract Wallet {
     address[] public approvers;
     uint256 public quorum; //Min No. of approvals required to process transaction
     struct Transfer {
